@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 import codecs
+import random
 
 import xlrd
 from PIL import ImageFont
@@ -68,5 +69,5 @@ class PrintWordImage:
         self.im.save("todoList.png")
 
 
-printWordImage = PrintWordImage("1.jpg", "todolist.txt")
+printWordImage = PrintWordImage("todolistPic/1.jpg", "todolist.txt")
 printWordImage.go()
